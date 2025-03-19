@@ -108,34 +108,13 @@ export default function Navbar() {
               >
                 Accueil
               </Link>
-              <div className="py-2">
-                <button className="flex items-center text-gray-700 hover:text-primary dark:text-gray-300 dark:hover:text-primary">
-                  Services <ChevronDown className="ml-1 h-4 w-4" />
-                </button>
-                <div className="pl-4 mt-2 space-y-2">
-                  <Link
-                    href="/services/consulting"
-                    className="block py-1 text-gray-700 hover:text-primary dark:text-gray-300 dark:hover:text-primary"
-                    onClick={toggleMenu}
-                  >
-                    Consultation
-                  </Link>
-                  <Link
-                    href="/services/development"
-                    className="block py-1 text-gray-700 hover:text-primary dark:text-gray-300 dark:hover:text-primary"
-                    onClick={toggleMenu}
-                  >
-                    Développement
-                  </Link>
-                  <Link
-                    href="/services/strategy"
-                    className="block py-1 text-gray-700 hover:text-primary dark:text-gray-300 dark:hover:text-primary"
-                    onClick={toggleMenu}
-                  >
-                    Stratégie
-                  </Link>
-                </div>
-              </div>
+              <Link
+                href="/services"
+                className="block py-2 text-gray-700 hover:text-primary dark:text-gray-300 dark:hover:text-primary"
+                onClick={toggleMenu}
+              >
+                Services
+              </Link>
               <Link
                 href="/about"
                 className="block py-2 text-gray-700 hover:text-primary dark:text-gray-300 dark:hover:text-primary"

@@ -11,7 +11,7 @@ export default function ServicesHero() {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <h1 className="text-4xl sm:text-5xl font-bold mb-6">Nos Services</h1>
             <p className="text-xl text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
-              NEXCORP offre une gamme complète de services dans 10 secteurs d'activité, de la construction à
+              Engrenage Corporation offre une gamme complète de services dans 10 secteurs d'activité, de la construction à
               l'assurance, en passant par le génie civil et la promotion immobilière.
             </p>
             <p className="text-xl text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
