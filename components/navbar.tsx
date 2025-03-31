@@ -60,7 +60,12 @@ export default function Navbar() {
             >
               Services
             </Link>
-
+            <Link
+                href="/furnitures"
+                className="text-gray-700 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
+            >
+              Fournitures
+            </Link>
             <Link
               href="/about"
               className="text-gray-700 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
@@ -114,6 +119,13 @@ export default function Navbar() {
                 onClick={toggleMenu}
               >
                 Services
+              </Link>
+              <Link
+                  href="/furnitures"
+                  className="block py-2 text-gray-700 hover:text-primary dark:text-gray-300 dark:hover:text-primary"
+                  onClick={toggleMenu}
+              >
+                Fournitures
               </Link>
               <Link
                 href="/about"

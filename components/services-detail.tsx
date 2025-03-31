@@ -30,7 +30,7 @@ export default function ServicesDetail() {
         "Gestion de projets de construction",
         "Contrôle qualité et supervision",
       ],
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/construction-1.jpg",
     },
     {
       id: "fournitures",
@@ -45,7 +45,7 @@ export default function ServicesDetail() {
         "Services de maintenance",
         "Solutions logistiques",
       ],
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/furnitures-services-1.jpg",
     },
     {
       id: "consulting",
@@ -60,7 +60,7 @@ export default function ServicesDetail() {
         "Gestion des risques",
         "Accompagnement au changement",
       ],
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/consulting-1.jpg",
     },
     {
       id: "facilitation",
@@ -75,7 +75,7 @@ export default function ServicesDetail() {
         "Coordination interservices",
         "Suivi et reporting",
       ],
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/facilitation-1.jpg",
     },
     {
       id: "commerce",
@@ -90,7 +90,7 @@ export default function ServicesDetail() {
         "Gestion de la chaîne d'approvisionnement",
         "Solutions d'achat groupé",
       ],
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/commerce-general-1.jpg",
     },
     {
       id: "genie-civil",
@@ -105,7 +105,8 @@ export default function ServicesDetail() {
         "Infrastructures urbaines",
         "Études techniques et structurelles",
       ],
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/genie-civil-1.jpg" +
+          "",
     },
     {
       id: "douane",
@@ -120,7 +121,7 @@ export default function ServicesDetail() {
         "Gestion des litiges douaniers",
         "Veille réglementaire",
       ],
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/douanes-1.jpg",
     },
     {
       id: "assurance",
@@ -135,7 +136,7 @@ export default function ServicesDetail() {
         "Assurance transport et logistique",
         "Gestion des sinistres",
       ],
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/assurance-1.jpg",
     },
     {
       id: "immobilier",
@@ -150,7 +151,7 @@ export default function ServicesDetail() {
         "Gestion de patrimoine immobilier",
         "Commercialisation et marketing immobilier",
       ],
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/production-promotion-immo-1.jpg",
     },
     {
       id: "industrialisation",
@@ -165,7 +166,7 @@ export default function ServicesDetail() {
         "Maintenance industrielle",
         "Formation technique",
       ],
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/industrialisation-1.jpg",
     },
   ]
 
